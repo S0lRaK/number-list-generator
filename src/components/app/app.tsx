@@ -91,8 +91,12 @@ function App() {
                 onChange={handleSwitchChange}
                 checked={state.switchChecked}
                 width={70}
-                uncheckedIcon={<div className="switch switch--unchecked">Excl.</div>}
-                checkedIcon={<div className="switch switch--checked">Incl.</div>}
+                uncheckedIcon={
+                  <div className="switch switch--unchecked">Excl.</div>
+                }
+                checkedIcon={
+                  <div className="switch switch--checked">Incl.</div>
+                }
               />
             </label>
             <br />
@@ -110,7 +114,7 @@ function App() {
         <br />
         <a
           className="link"
-          href="https://reactjs.org"
+          href="https://github.com/S0lRaK/number-list-generator"
           target="_blank"
           rel="noopener noreferrer"
         >
