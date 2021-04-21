@@ -1,0 +1,71 @@
+.app {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.input {
+  margin: .5rem;
+  text-align: center;
+  opacity: .8;
+}
+
+.switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.switch--unchecked {
+  color: lightcoral;
+  padding-right: .1rem;
+}
+
+.switch--checked {
+  padding-left: .1rem;
+}
+
+.button {
+  margin: 1rem;
+  border-radius: 1rem;
+  border-bottom: .4rem solid #2b6c7e;
+  padding: .5rem 1rem;
+  background-color: var(--color-accent);
+  box-shadow: 0px 3px 10px #92e5fc;
+  text-transform: uppercase;
+}
+
+.footer {
+  margin-bottom: 1rem;
+}
+
+.logo {
+  height: 5vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo--spin {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.link {
+  color: var(--color-accent);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
